@@ -1,0 +1,12 @@
+Background music
+================
+
+Original soundtrack provided by the project author:
+
+  boss-battle-theme.mp3      Boss Battle Theme
+
+The "Payphone" theme ships separately at `assets/audio/music/payphone.ogg` and
+is the first track in the station playlist.
+
+Use the "Music" button in the header to open the player, switch tracks, seek
+and set the volume.

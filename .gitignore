@@ -5,8 +5,8 @@ node_modules/
 dist/
 tsconfig.tsbuildinfo
 
-# Game build staged by scripts/build-game.sh
-public/game/
+# Game build staged by scripts/build-game.sh (committed for CI deploys)
+# public/game/
 
 # Wrangler state
 .wrangler/

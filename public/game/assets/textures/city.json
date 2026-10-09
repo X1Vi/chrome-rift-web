@@ -1,0 +1,543 @@
+{
+  "image": "city.png",
+  "depth_ratio": 0.72,
+  "buildings": [
+    {
+      "name": "corner-shop",
+      "kind": 3,
+      "world_height": 9.0,
+      "solid": true,
+      "body_frac": 0.818,
+      "width_frac": 0.982,
+      "offset_frac": 0.0,
+      "front": [
+        2,
+        2,
+        109,
+        110
+      ],
+      "side": [
+        113,
+        2,
+        77,
+        90
+      ],
+      "roof": [
+        192,
+        2,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "apartment",
+      "kind": 1,
+      "world_height": 13.0,
+      "solid": true,
+      "body_frac": 0.836,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        258,
+        2,
+        127,
+        110
+      ],
+      "side": [
+        387,
+        2,
+        91,
+        92
+      ],
+      "roof": [
+        480,
+        2,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "auto-shop",
+      "kind": 1,
+      "world_height": 8.0,
+      "solid": true,
+      "body_frac": 0.764,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        546,
+        2,
+        176,
+        110
+      ],
+      "side": [
+        724,
+        2,
+        127,
+        84
+      ],
+      "roof": [
+        853,
+        2,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "warehouse",
+      "kind": 1,
+      "world_height": 9.5,
+      "solid": true,
+      "body_frac": 0.718,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        2,
+        114,
+        173,
+        110
+      ],
+      "side": [
+        177,
+        114,
+        125,
+        79
+      ],
+      "roof": [
+        304,
+        114,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "gas-station",
+      "kind": 3,
+      "world_height": 5.5,
+      "solid": true,
+      "body_frac": 0.809,
+      "width_frac": 0.995,
+      "offset_frac": -0.003,
+      "front": [
+        370,
+        114,
+        188,
+        110
+      ],
+      "side": [
+        560,
+        114,
+        135,
+        89
+      ],
+      "roof": [
+        697,
+        114,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "billboard",
+      "kind": 3,
+      "world_height": 6.5,
+      "solid": false,
+      "body_frac": 1.0,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        763,
+        114,
+        123,
+        110
+      ],
+      "side": null,
+      "roof": null
+    },
+    {
+      "name": "utility-pole",
+      "kind": 3,
+      "world_height": 7.5,
+      "solid": false,
+      "body_frac": 1.0,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        888,
+        114,
+        64,
+        110
+      ],
+      "side": null,
+      "roof": null
+    },
+    {
+      "name": "fence",
+      "kind": 2,
+      "world_height": 4.0,
+      "solid": false,
+      "body_frac": 1.0,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        2,
+        226,
+        236,
+        110
+      ],
+      "side": null,
+      "roof": null
+    },
+    {
+      "name": "tower-a",
+      "kind": 0,
+      "world_height": 36.0,
+      "solid": true,
+      "body_frac": 0.974,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        240,
+        226,
+        59,
+        155
+      ],
+      "side": [
+        301,
+        226,
+        42,
+        151
+      ],
+      "roof": [
+        345,
+        226,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "tower-b",
+      "kind": 0,
+      "world_height": 31.0,
+      "solid": true,
+      "body_frac": 0.979,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        411,
+        226,
+        69,
+        140
+      ],
+      "side": [
+        482,
+        226,
+        50,
+        137
+      ],
+      "roof": [
+        534,
+        226,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "tower-c",
+      "kind": 0,
+      "world_height": 25.0,
+      "solid": true,
+      "body_frac": 0.982,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        600,
+        226,
+        62,
+        164
+      ],
+      "side": [
+        664,
+        226,
+        45,
+        161
+      ],
+      "roof": [
+        711,
+        226,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "office-a",
+      "kind": 1,
+      "world_height": 17.0,
+      "solid": true,
+      "body_frac": 1.0,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        777,
+        226,
+        99,
+        86
+      ],
+      "side": [
+        878,
+        226,
+        71,
+        86
+      ],
+      "roof": [
+        2,
+        392,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "office-b",
+      "kind": 1,
+      "world_height": 14.5,
+      "solid": true,
+      "body_frac": 1.0,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        68,
+        392,
+        96,
+        86
+      ],
+      "side": [
+        166,
+        392,
+        69,
+        86
+      ],
+      "roof": [
+        237,
+        392,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "office-c",
+      "kind": 1,
+      "world_height": 12.0,
+      "solid": true,
+      "body_frac": 0.97,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        303,
+        392,
+        108,
+        99
+      ],
+      "side": [
+        413,
+        392,
+        78,
+        96
+      ],
+      "roof": [
+        493,
+        392,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "house-a",
+      "kind": 2,
+      "world_height": 7.0,
+      "solid": true,
+      "body_frac": 0.909,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        559,
+        392,
+        123,
+        55
+      ],
+      "side": [
+        684,
+        392,
+        89,
+        50
+      ],
+      "roof": [
+        775,
+        392,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "house-b",
+      "kind": 2,
+      "world_height": 6.5,
+      "solid": true,
+      "body_frac": 0.924,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        841,
+        392,
+        106,
+        66
+      ],
+      "side": [
+        2,
+        493,
+        76,
+        61
+      ],
+      "roof": [
+        80,
+        493,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "house-c",
+      "kind": 2,
+      "world_height": 6.0,
+      "solid": true,
+      "body_frac": 0.919,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        146,
+        493,
+        104,
+        62
+      ],
+      "side": [
+        252,
+        493,
+        75,
+        57
+      ],
+      "roof": [
+        329,
+        493,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "townhouses-a",
+      "kind": 2,
+      "world_height": 8.0,
+      "solid": true,
+      "body_frac": 0.855,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        395,
+        493,
+        130,
+        69
+      ],
+      "side": [
+        527,
+        493,
+        94,
+        59
+      ],
+      "roof": [
+        623,
+        493,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "townhouses-b",
+      "kind": 2,
+      "world_height": 7.0,
+      "solid": true,
+      "body_frac": 0.851,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        689,
+        493,
+        138,
+        67
+      ],
+      "side": [
+        829,
+        493,
+        99,
+        57
+      ],
+      "roof": [
+        2,
+        564,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "cafe",
+      "kind": 3,
+      "world_height": 5.2,
+      "solid": true,
+      "body_frac": 0.959,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        68,
+        564,
+        112,
+        74
+      ],
+      "side": [
+        182,
+        564,
+        81,
+        71
+      ],
+      "roof": [
+        265,
+        564,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "shop-b",
+      "kind": 3,
+      "world_height": 5.8,
+      "solid": true,
+      "body_frac": 0.959,
+      "width_frac": 1.0,
+      "offset_frac": 0.0,
+      "front": [
+        331,
+        564,
+        130,
+        73
+      ],
+      "side": [
+        463,
+        564,
+        94,
+        70
+      ],
+      "roof": [
+        559,
+        564,
+        64,
+        64
+      ]
+    }
+  ]
+}
