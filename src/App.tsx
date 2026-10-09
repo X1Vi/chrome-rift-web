@@ -62,7 +62,7 @@ export default function App() {
 
   const launch = useCallback(() => {
     setLaunched(true);
-    shellRef.current?.requestFullscreen();
+    void document.documentElement.requestFullscreen();
   }, []);
 
   const exit = useCallback(() => setLaunched(false), []);
