@@ -1,0 +1,28 @@
+{
+  "name": "chrome-rift-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Web shell that hosts the Chrome Rift RS browser build and deploys it to Cloudflare.",
+  "scripts": {
+    "dev": "vite",
+    "game": "bash scripts/build-game.sh",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "deploy": "bash scripts/build-game.sh --deploy",
+    "deploy:preview": "bash scripts/build-game.sh --deploy --preview"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "binaryen": "^132.0.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.3",
+    "wrangler": "~4.80.0"
+  }
+}
