@@ -43,6 +43,7 @@ export default function App() {
   const [launched, setLaunched] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const shellRef = useRef<HTMLDivElement>(null);
+  const frameRef = useRef<HTMLIFrameElement>(null);
   const webgl2 = useWebgl2Support();
 
   const playable = webgl2 !== false;
@@ -59,7 +60,11 @@ export default function App() {
     }
   }, [launched]);
 
-  const launch = useCallback(() => setLaunched(true), []);
+  const launch = useCallback(() => {
+    setLaunched(true);
+    shellRef.current?.requestFullscreen();
+  }, []);
+
   const exit = useCallback(() => setLaunched(false), []);
 
   const toggleFullscreen = useCallback(() => {
@@ -70,6 +75,10 @@ export default function App() {
     } else {
       void shell.requestFullscreen();
     }
+  }, []);
+
+  const onFrameLoad = useCallback(() => {
+    frameRef.current?.focus();
   }, []);
 
   if (!launched) {
@@ -94,11 +103,13 @@ export default function App() {
   return (
     <div className="shell" ref={shellRef}>
       <iframe
+        ref={frameRef}
         className="frame"
         src={GAME_URL}
         title="Chrome Rift RS"
         allow="autoplay; fullscreen; gamepad"
-        onLoad={(event) => event.currentTarget.contentWindow?.focus()}
+        tabIndex={0}
+        onLoad={onFrameLoad}
       />
       <div className="corner-tools">
         <button
